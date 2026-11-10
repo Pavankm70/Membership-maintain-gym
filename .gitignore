@@ -1,0 +1,33 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Backend Build & Dependencies
+backend/target/
+backend/.mvn/
+*.class
+*.jar
+*.war
+
+# Frontend Dependencies & Build Output
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Database local binary data
+database/mysql_local_data/
+*.log
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.suo
+*.user
+
+# Environment & Secrets
+.env
+.env.local
+
+# application.properties with real credentials - use application.properties.example instead
+# backend/src/main/resources/application.properties
